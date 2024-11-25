@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: PP Agrandir;
+    src: url(assets/fonts/Agrandir-Regular.otf);
+}
+
+@font-face {
+    font-family: PP Agrandir Bold;
+    src: url(assets/fonts/Agrandir-TextBold.otf);
+}
+
+@font-face {
+    font-family: PP Agrandir Heavy;
+    src: url(assets/fonts/Agrandir-GrandHeavy.otf);
+}
+
+body , h1, h2, h3, h4, h5, h6, ul{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "PP Agrandir Bold";
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 , h3 {
+    font-family: "PP Agrandir Bold";
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px #cccccc;
+}
+
+.header-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 10px;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.basket img{
+    width: 22px;
+    transform: translateY(5px);
+}
+
+.btn-trans , .btn-back , button , a.cs-btn{
+    padding: 7px 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.btn-back , button , a.cs-btn {
+    background-color: #e21b70;
+    border: 1px solid #e21b70;
+    color: #fff;
+}
+
+.btn-back a {
+    color: #fff;
+}
+
+.banner {
+    background-color: #f7f7f7;
+    padding: 80px 40px 0px;
+    position: relative;
+    height: 440px;
+}
+
+.main {
+    display: flex;
+}
+
+.left-col {
+    width: 55%;
+    padding-top: 100px;
+}
+
+.rt-col {
+    width: 45%;
+}
+
+.rt-col img {
+    max-width: 650px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.search-food {
+    background-color: #fff;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+input {
+    width: 78%;
+    height: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    font-family: "Open Sans";
+}
+
+button {
+    height: 45px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.input-div {
+    width: 100%;
+}
+
+.locate {
+    position: absolute;
+    right: 22%;
+    top: 20px;
+}
+
+.locate li {
+    list-style: none;
+    font-family: "Open Sans";
+
+}
+
+.locate img {
+    width: 28px;
+    transform: translate(-5px , 5px);
+}
+
+.prepare-sec {
+    padding-top: 60px;
+}
+
+.prepare-sec h2 {
+    padding: 0 40px 30px;
+}
+
+
+.prepare-sec img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.prepare-card {
+    padding: 0 40px;
+    height: 270px;
+}
+
+.prepare-card-1 {
+    height: 150px;
+}
+
+.res-con {
+    width: 44%;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #cccccc;
+    border-radius: 15px;
+    margin-top: -150px;
+    position: absolute;
+}
+
+a.cs-btn {
+    font-family: "Open Sans";
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.cities-sec {
+    padding: 0 40px 60px;
+}
+
+.cities-sec h2 {
+    padding-bottom: 40px;
+}
+
+.cities-main {
+    display: flex;
+    gap: 25px;
+}
+
+.cities-list img {
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+    transition: 0.5s ease-in-out;
+}
+
+.cities-list {
+    width: 25%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.cities-list img:hover {
+    transform: scale(1.05)
+}
+
+.cities-list p{
+    font-weight: 600;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transform: translate(7px , -50px);
+    margin: -40px 0px 0px 10px;
+}
+
+.cities-list a {
+    color: #000;
+    display: inline-block;
+}
+
+.pocket {
+    padding: 0px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pocket > .container {
+    padding: 50px 30px;
+    width: 100%;
+    background-color: #e21b70;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.pocket h3 {
+    font-family: PP Agrandir;
+    font-weight: 400 !important;
+}
